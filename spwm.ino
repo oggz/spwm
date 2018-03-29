@@ -1,6 +1,8 @@
 /* 
    SPWM Inverter Driver
    By: Alex Doccolo
+
+   Output Ports: 9 and 10
 */
 
 
@@ -62,9 +64,4 @@ void loop()
 
     Serial.println(period);
   }
-  
-  // a0 = analogRead(A0);
-  // period = map(a0, 0, 1023, 1000, 100000);
-  // Serial.println(period);
-  // delay(100);
 }
